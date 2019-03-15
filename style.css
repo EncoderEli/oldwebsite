@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(focus-on-the-title.jpg);
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.eli-buttons>a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: .7s ease;
+}
+
+.eli-buttons>a:hover,
+.eli-buttons>a.active {
+    background-color: white;
+    color: black;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+}
+
+.first-page {
+    height: 100vh;
+}
+
+.horizontal-center {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.first-page h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+.narrow {
+    max-width: 600px;
+}
+
+iframe.fillwindow {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+}
+
+.margins>* {
+    margin: 8px;
+}
+
+table#officers,
+table#officers td {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-collapse: collapse;
+}
+
+table#officers td {
+    padding: 15px 10px;
+}
