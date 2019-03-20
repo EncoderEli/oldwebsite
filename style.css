@@ -25,7 +25,6 @@ header {
     text-decoration: none;
     padding: 5px 20px;
     border: 1px solid transparent;
-    transition: .7s ease;
 }
 
 .eli-buttons>a:hover,
@@ -43,16 +42,11 @@ header {
     height: 100vh;
 }
 
-.horizontal-center {
+.centered-vertical-layout {
     display: flex;
-    /* align-items: center; */
+    flex-direction: column;
     justify-content: center;
-}
-
-.vertical-center {
-    display: flex;
     align-items: center;
-    /* justify-content: center; */
 }
 
 .first-page h1 {
@@ -88,4 +82,14 @@ table#officers td {
 
 table#officers td {
     padding: 15px 10px;
+}
+
+#meeting-schedule {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: thin solid rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
